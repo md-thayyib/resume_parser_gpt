@@ -1,0 +1,16 @@
+{
+    // black formatting
+    "editor.formatOnSave": true,
+    "python.formatting.provider": "black",
+    // pylint
+    "python.linting.lintOnSave": true,
+    "python.linting.enabled": true,
+    "python.linting.pylintEnabled": true,
+    "python.linting.pylintArgs": [
+        "--disable=C0111"
+    ],
+    // sort imports
+    "editor.codeActionsOnSave": {
+        "source.organizeImports": true
+    },
+}
